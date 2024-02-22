@@ -3,10 +3,12 @@ import { httpLogger, logger } from "./logging";
 import { HOST, PORT } from "./constants";
 import { getAllLocations } from "./db/schema/timetable";
 import timeT from "./routes/timetable";
+import helmet from "helmet";
 
 const app = express();
 app.use(httpLogger);
 app.use(express.json());
+app.use(helmet());
 
 export const prettyPrint = <T>(log: T) => {
     return JSON.stringify(log, undefined, 4);
