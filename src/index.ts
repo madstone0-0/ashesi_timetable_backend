@@ -1,7 +1,6 @@
 import express, { NextFunction, Request, Response } from "express";
 import { httpLogger, logger } from "./logging";
 import { HOST, PORT } from "./constants";
-import { getAllLocations } from "./db/schema/timetable";
 import timeT from "./routes/timetable";
 import helmet from "helmet";
 

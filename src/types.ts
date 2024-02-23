@@ -1,4 +1,5 @@
-import type { Request } from "express";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import type { Request, Response } from "express";
 
 export interface ServiceReturn<Data = any> {
     status: number;
@@ -11,3 +12,5 @@ export type CustomRequest<Params = unknown, ReqBody = unknown> = Request<
     unknown,
     ReqBody
 >;
+
+export type CourseRequest = CustomRequest<unknown, { location: string }>;

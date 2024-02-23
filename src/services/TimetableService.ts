@@ -5,7 +5,7 @@ import {
 } from "../db/schema/timetable";
 import { logger } from "../logging";
 import { ServiceReturn } from "../types";
-import { convertToUnix } from "../utils";
+import { convertToHuman, convertToUnix } from "../utils";
 import { handleServerError } from "../utils/handleErrors";
 
 class TimetableService {
@@ -53,7 +53,8 @@ class TimetableService {
         try {
             const coursesToday = (await this.CoursesToday(location)).data;
             const rightNow = new Date().getTime();
-            logger.info(`Time is ${rightNow}`);
+            logger.info(`Time now is ${convertToHuman(rightNow)}`);
+            logger.debug(`Unix time is ${rightNow}`);
             const coursesRightNow = coursesToday.filter((course) => {
                 const startTime = convertToUnix(course.startTime);
                 const endTime = convertToUnix(course.endTime);
@@ -76,7 +77,10 @@ class TimetableService {
         try {
             const coursesToday = (await this.CoursesToday(location)).data;
             const rightNow = new Date().getTime();
-            logger.info(`Time is ${rightNow}`);
+
+            logger.info(`Time now is ${convertToHuman(rightNow)}`);
+            logger.debug(`Unix time is ${rightNow}`);
+
             const hoursMS = hours * 60 * 60 * 1000;
             const rightNowUpper = rightNow + hoursMS;
             const rightNowLower = rightNow - hoursMS;

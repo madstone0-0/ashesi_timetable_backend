@@ -1,7 +1,6 @@
-import { pgTable, varchar, uuid, boolean, date } from "drizzle-orm/pg-core";
-import { InferInsertModel, InferSelectModel, eq, sql } from "drizzle-orm";
+import { pgTable, varchar, date } from "drizzle-orm/pg-core";
+import { InferSelectModel, eq, sql } from "drizzle-orm";
 import db from "../../db";
-import { time } from "console";
 
 export const timetable = pgTable("timetable", {
     day: varchar("day").notNull(),
