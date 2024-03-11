@@ -55,4 +55,12 @@ timeT.post(
     },
 );
 
+timeT.get("/available-right-now", (req, res) => {
+    TimetableService.AvailableRightNow()
+        .then(({ status, data }) => {
+            return res.status(status).send(data);
+        })
+        .catch((e) => handleServerError(e, "/timetable/available-right-now"));
+});
+
 export default timeT;

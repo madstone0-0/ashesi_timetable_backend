@@ -9,7 +9,7 @@ import { convertToHuman, convertToUnix } from "../utils";
 import { handleServerError } from "../utils/handleErrors";
 
 class TimetableService {
-    async GetAllLocations(): Promise<ServiceReturn> {
+    async GetAllLocations(): Promise<ServiceReturn<string[]>> {
         try {
             const locationsObj = await getAllLocations();
             let locations: string[] = [];
@@ -49,7 +49,9 @@ class TimetableService {
         }
     }
 
-    async CoursesRightNow(location: string): Promise<ServiceReturn> {
+    async CoursesRightNow(
+        location: string,
+    ): Promise<ServiceReturn<Timetable[]>> {
         try {
             const coursesToday = (await this.CoursesToday(location)).data;
             const rightNow = new Date().getTime();
@@ -67,6 +69,27 @@ class TimetableService {
             };
         } catch (e) {
             return handleServerError(e, "/timetable/courses-right-now");
+        }
+    }
+
+    async AvailableRightNow(): Promise<ServiceReturn<string[]>> {
+        try {
+            const locations = (await this.GetAllLocations()).data;
+            let availableRightNow: string[] = [];
+
+            for (const location of locations) {
+                const coursesRightNow = (await this.CoursesRightNow(location))
+                    .data;
+                if (coursesRightNow.length === 0) {
+                    availableRightNow.push(location);
+                }
+            }
+            return {
+                status: 200,
+                data: availableRightNow,
+            };
+        } catch (e) {
+            return handleServerError(e, "/timetable/available-right-now");
         }
     }
 
