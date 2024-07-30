@@ -25,13 +25,13 @@ SET default_table_access_method = heap;
 --
 
 CREATE TABLE public.timetable (
-    day character varying NOT NULL,
-    period_name character varying NOT NULL,
+    day character varying(9) NOT NULL,
+    period_name character varying(50) NOT NULL,
     start_time time without time zone NOT NULL,
     end_time time without time zone NOT NULL,
-    location character varying,
-    course_code character varying NOT NULL,
-    section character varying NOT NULL
+    location character varying(50),
+    course_code character varying(100) NOT NULL,
+    section character varying(9) NOT NULL
 );
 
 

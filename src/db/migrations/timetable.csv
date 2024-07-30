@@ -1,0 +1,432 @@
+Day,Period Name,Start Time,End Time,Location,Course Code - Course Name,Section
+Monday,Lecture,09:45,11:15,Jackson Lab 221,BUSA132 - Organizational Behaviour,Section A
+Wednesday,Lecture,09:45,11:15,Jackson Lab 221,BUSA132 - Organizational Behaviour,Section A
+Friday,Discussion,12:45,13:45,Nutor Hall 100,BUSA132 - Organizational Behaviour,Section A
+Monday,Lecture,11:30,13:00,Jackson Hall 115,BUSA132 - Organizational Behaviour,Section B
+Wednesday,Lecture,11:30,13:00,Jackson Hall 115,BUSA132 - Organizational Behaviour,Section B
+Friday,Discussion,14:25,15:25,Nutor Hall 100,BUSA132 - Organizational Behaviour,Section B
+Tuesday,Lecture,11:30,13:00,Nutor Hall 115,BUSA162 - Foundations of Design and Entrepreneurship II,Section A
+Thursday,Lecture,11:30,13:00,Nutor Hall 115,BUSA162 - Foundations of Design and Entrepreneurship II,Section A
+Friday,Discussion,08:00,09:00,Nutor Hall 115,BUSA162 - Foundations of Design and Entrepreneurship II,Section A
+Tuesday,Lecture,13:15,14:45,Nutor Hall 115,BUSA162 - Foundations of Design and Entrepreneurship II,Section B
+Thursday,Lecture,13:15,14:45,Nutor Hall 115,BUSA162 - Foundations of Design and Entrepreneurship II,Section B
+Friday,Discussion,09:10,10:10,Nutor Hall 115,BUSA162 - Foundations of Design and Entrepreneurship II,Section B
+Tuesday,Lecture,13:15,14:45,Norton-Motulsky 207A,BUSA162 - Foundations of Design and Entrepreneurship II,Section C
+Thursday,Lecture,13:15,14:45,Norton-Motulsky 207A,BUSA162 - Foundations of Design and Entrepreneurship II,Section C
+Friday,Discussion,08:00,09:00,Norton-Motulsky 207A,BUSA162 - Foundations of Design and Entrepreneurship II,Section C
+Tuesday,Lecture,15:00,16:30,Norton-Motulsky 207A,BUSA162 - Foundations of Design and Entrepreneurship II,Section D
+Thursday,Lecture,15:00,16:30,Norton-Motulsky 207A,BUSA162 - Foundations of Design and Entrepreneurship II,Section D
+Friday,Discussion,09:10,10:10,Norton-Motulsky 207A,BUSA162 - Foundations of Design and Entrepreneurship II,Section D
+Tuesday,Lecture,11:30,13:00,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section E
+Thursday,Lecture,11:30,13:00,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section E
+Friday,Discussion,08:00,09:00,Nutor Hall 216,BUSA162 - Foundations of Design and Entrepreneurship II,Section E
+Tuesday,Lecture,09:45,11:15,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section F
+Thursday,Lecture,09:45,11:15,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section F
+Friday,Discussion,09:10,10:10,Nutor Hall 216,BUSA162 - Foundations of Design and Entrepreneurship II,Section F
+Tuesday,Lecture,13:15,14:45,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section G
+Thursday,Lecture,13:15,14:45,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section G
+Friday,Discussion,08:00,09:00,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section G
+Tuesday,Lecture,15:00,16:30,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section H
+Thursday,Lecture,15:00,16:30,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section H
+Friday,Discussion,09:10,10:10,Norton-Motulsky 207B,BUSA162 - Foundations of Design and Entrepreneurship II,Section H
+Tuesday,Lecture,13:15,14:45,Jackson Hall 115,BUSA220 - Introduction to Finance,Section A
+Thursday,Lecture,13:15,14:45,Jackson Hall 115,BUSA220 - Introduction to Finance,Section A
+Friday,Discussion,10:20,11:20,Radichel MPR,BUSA220 - Introduction to Finance,Section A
+Tuesday,Lecture,15:00,16:30,Jackson Hall 115,BUSA220 - Introduction to Finance,Section B
+Thursday,Lecture,15:00,16:30,Jackson Hall 115,BUSA220 - Introduction to Finance,Section B
+Friday,Discussion,12:15,13:15,Radichel MPR,BUSA220 - Introduction to Finance,Section B
+Tuesday,Lecture,13:15,14:45,Nutor Hall 216,BUSA220 - Introduction to Finance,Section C
+Thursday,Lecture,13:15,14:45,Nutor Hall 216,BUSA220 - Introduction to Finance,Section C
+Friday,Discussion,13:55,14:55,Radichel MPR,BUSA220 - Introduction to Finance,Section C
+Monday,Lecture,08:00,09:30,Radichel MPR,BUSA311 - Managerial Accounting,Section A
+Wednesday,Lecture,08:00,09:30,Radichel MPR,BUSA311 - Managerial Accounting,Section A
+Friday,Discussion,10:20,11:20,Nutor Hall 216,BUSA311 - Managerial Accounting,Section A
+Monday,Lecture,09:45,11:15,Radichel MPR,BUSA311 - Managerial Accounting,Section B
+Wednesday,Lecture,09:45,11:15,Radichel MPR,BUSA311 - Managerial Accounting,Section B
+Friday,Discussion,12:15,13:15,Nutor Hall 216,BUSA311 - Managerial Accounting,Section B
+Tuesday,Lecture,13:15,14:45,Nutor Hall 100,BUSA311 - Managerial Accounting,Section C
+Thursday,Lecture,13:15,14:45,Nutor Hall 100,BUSA311 - Managerial Accounting,Section C
+Friday,Discussion,13:55,14:55,Norton-Motulsky 207A,BUSA311 - Managerial Accounting,Section C
+Monday,Lecture,08:00,09:30,Norton-Motulsky 207B,BUSA332 - Organisational Behavior,Section A
+Wednesday,Lecture,08:00,09:30,Norton-Motulsky 207B,BUSA332 - Organisational Behavior,Section A
+Friday,Discussion,08:00,09:00,Radichel MPR,BUSA332 - Organisational Behavior,Section A
+Monday,Lecture,09:45,11:15,Norton-Motulsky 207B,BUSA332 - Organisational Behavior,Section B
+Wednesday,Lecture,09:45,11:15,Norton-Motulsky 207B,BUSA332 - Organisational Behavior,Section B
+Friday,Discussion,09:10,10:10,Jackson Lab 221,BUSA332 - Organisational Behavior,Section B
+Monday,Lecture,11:30,13:00,Norton-Motulsky 207B,BUSA332 - Organisational Behavior,Section C
+Wednesday,Lecture,11:30,13:00,Norton-Motulsky 207B,BUSA332 - Organisational Behavior,Section C
+Friday,Discussion,08:00,09:00,Jackson Lab 221,BUSA332 - Organisational Behavior,Section C
+Monday,Seminar,11:30,13:00,Nutor Hall 115,BUSA401_B - Entrepreneurship II,Section A
+Wednesday,Lecture,09:45,13:00,Norton-Motulsky 207A,BUSA401_B - Entrepreneurship II,Section A
+Monday,Discussion,08:30,09:30,Norton-Motulsky 207A,BUSA405 - Competitive Strategy,Section A
+Tuesday,Lecture,09:45,11:15,Apt Hall 216,BUSA405 - Competitive Strategy,Section A
+Thursday,Lecture,09:45,11:15,Apt Hall 216,BUSA405 - Competitive Strategy,Section A
+Monday,Discussion,09:45,10:45,Norton-Motulsky 207A,BUSA405 - Competitive Strategy,Section B
+Tuesday,Lecture,11:30,13:00,Apt Hall 216,BUSA405 - Competitive Strategy,Section B
+Thursday,Lecture,11:30,13:00,Apt Hall 216,BUSA405 - Competitive Strategy,Section B
+Monday,Discussion,08:30,09:30,Jackson Lab 221,BUSA405 - Competitive Strategy,Section C
+Tuesday,Lecture,13:15,14:45,Apt Hall 216,BUSA405 - Competitive Strategy,Section C
+Thursday,Lecture,13:15,14:45,Apt Hall 216,BUSA405 - Competitive Strategy,Section C
+Tuesday,Seminar,08:00,09:30,Apt Hall 216,BUSA412 - Applied Project II (BA),Section A
+Thursday,Seminar,08:00,09:30,Apt Hall 216,BUSA412 - Applied Project II (BA),Section A
+Tuesday,Lecture,11:30,13:00,Nutor Hall 216,BUSA425 - Venture Capital Investment,Section A
+Thursday,Lecture,11:30,13:00,Nutor Hall 216,BUSA425 - Venture Capital Investment,Section A
+Friday,Discussion,08:00,09:00,Apt Hall 217,BUSA425 - Venture Capital Investment,Section A
+Monday,Lecture,13:15,14:45,Norton-Motulsky 207B,BUSA430 - Human Resource Management,Section A
+Wednesday,Lecture,13:15,14:45,Norton-Motulsky 207B,BUSA430 - Human Resource Management,Section A
+Friday,Discussion,13:55,14:55,Nutor Hall 216,BUSA430 - Human Resource Management,Section A
+Monday,Discussion,15:00,16:00,Jackson Lab 221,BUSA446 - Integrated Marketing Communications,Section A
+Tuesday,Lecture,09:45,11:15,Apt Hall 217,BUSA446 - Integrated Marketing Communications,Section A
+Thursday,Lecture,09:45,11:15,Apt Hall 217,BUSA446 - Integrated Marketing Communications,Section A
+Tuesday,Lecture,13:15,14:45,D-Lab 102,BUSA451 - Development Economics,Section A
+Thursday,Lecture,13:15,14:45,D-Lab 102,BUSA451 - Development Economics,Section A
+Friday,Discussion,09:10,10:10,Jackson Hall 115,BUSA451 - Development Economics,Section A
+Monday,Lecture,15:00,16:30,Norton-Motulsky 207B,BUSA455 - Project Management,Section A
+Wednesday,Lecture,15:00,16:30,Norton-Motulsky 207B,BUSA455 - Project Management,Section A
+Friday,Discussion,09:10,10:10,Apt Hall 217,BUSA455 - Project Management,Section A
+Tuesday,Lecture,08:00,09:30,Apt Hall 217,BUSA458 - Data Analytics for Business,Section A
+Thursday,Lecture,08:00,09:30,Apt Hall 217,BUSA458 - Data Analytics for Business,Section A
+Friday,Discussion,14:25,15:25,Science Lab,BUSA458 - Data Analytics for Business,Section A
+Monday,Discussion,13:45,14:45,Nutor Hall 100,BUSA462 - New Product Development,Section A
+Tuesday,Lecture,15:00,16:30,Apt Hall 216,BUSA462 - New Product Development,Section A
+Thursday,Lecture,15:00,16:30,Apt Hall 216,BUSA462 - New Product Development,Section A
+Tuesday,Seminar,15:00,16:30,Nutor Hall 100,BUSA492 - Undergraduate Thesis II (BA),Section A
+Thursday,Seminar,15:00,16:30,Nutor Hall 100,BUSA492 - Undergraduate Thesis II (BA),Section A
+Tuesday,Lecture,13:15,14:45,Fab Lab 303,CE122 - Applied Programming for Engineers,Section A
+Thursday,Lab,13:15,14:45,Fab Lab 303,CE122 - Applied Programming for Engineers,Section A
+Tuesday,Lecture,15:00,16:30,Fab Lab 303,CE122 - Applied Programming for Engineers,Section B
+Thursday,Lab,15:00,16:30,Fab Lab 303,CE122 - Applied Programming for Engineers,Section B
+Wednesday,Lab,08:00,10:00,Fab Lab 303,CE322 - Digital Systems Design,Section A
+Thursday,Lecture,08:00,09:30,Fab Lab 203,CE322 - Digital Systems Design,Section A
+Friday,Lecture,08:00,09:30,Fab Lab 203,CE322 - Digital Systems Design,Section A
+Monday,Lecture,11:30,13:00,D-Lab 102,CS111 - Introduction to Computing and Information Systems,Section A
+Wednesday,Lecture,11:30,13:00,D-Lab 102,CS111 - Introduction to Computing and Information Systems,Section A
+Friday,Lab,13:55,15:25,Fab Lab 303,CS111 - Introduction to Computing and Information Systems,Section A
+Monday,Lecture,08:00,09:30,Fab Lab 203,CS112 - Computer Programming for Engineering,Section A
+Wednesday,Lecture,08:00,09:30,Fab Lab 203,CS112 - Computer Programming for Engineering,Section A
+Friday,Lab,12:15,13:45,Fab Lab 203,CS112 - Computer Programming for Engineering,Section A
+Monday,Lecture,09:45,11:15,Fab Lab 203,CS112 - Computer Programming for Engineering,Section B
+Wednesday,Lecture,09:45,11:15,Fab Lab 203,CS112 - Computer Programming for Engineering,Section B
+Friday,Lab,13:55,15:25,Fab Lab 203,CS112 - Computer Programming for Engineering,Section B
+Monday,Lecture,08:00,09:30,Apt Hall 216,CS212 - Computer Programming for CS,Section A
+Wednesday,Lecture,08:00,09:30,Apt Hall 216,CS212 - Computer Programming for CS,Section A
+Friday,Lab,10:20,11:50,Jackson Lab 221,CS212 - Computer Programming for CS,Section A
+Monday,Lecture,09:45,11:15,Apt Hall 216,CS212 - Computer Programming for CS,Section B
+Wednesday,Period,09:45,11:15,Apt Hall 216,CS212 - Computer Programming for CS,Section B
+Friday,Lab,12:15,13:45,Jackson Lab 221,CS212 - Computer Programming for CS,Section B
+Monday,Lecture,11:30,13:00,Apt Hall 216,CS212 - Computer Programming for CS,Section C
+Wednesday,Lecture,11:30,13:00,Apt Hall 216,CS212 - Computer Programming for CS,Section C
+Friday,Lab,13:55,15:25,Jackson Lab 221,CS212 - Computer Programming for CS,Section C
+Monday,Lecture,11:30,13:00,Nutor Hall 216,CS213 - Object-Oriented Programming,Section A
+Wednesday,Lecture,11:30,13:00,Nutor Hall 216,CS213 - Object-Oriented Programming,Section A
+Thursday,Lab,16:45,18:15,Jackson Lab 222,CS213 - Object-Oriented Programming,Section A
+Monday,Lecture,13:15,14:45,Apt Hall 216,CS222 - Data Structures and Algorithms,Section A
+Wednesday,Lecture,13:15,14:45,Apt Hall 216,CS222 - Data Structures and Algorithms,Section A
+Friday,Lab,13:55,15:25,Databank Foundation Hall 218,CS222 - Data Structures and Algorithms,Section A
+Monday,Lecture,15:00,16:30,Apt Hall 216,CS222 - Data Structures and Algorithms,Section B
+Wednesday,Lecture,15:00,16:30,Apt Hall 216,CS222 - Data Structures and Algorithms,Section B
+Friday,Lab,12:15,13:45,Databank Foundation Hall 218,CS222 - Data Structures and Algorithms,Section B
+Monday,Lab,08:00,09:30,Apt Hall 217,CS254 - Introduction to Artificial Intelligence,Section A
+Tuesday,Lecture,13:15,14:45,Apt Hall 217,CS254 - Introduction to Artificial Intelligence,Section A
+Thursday,Lecture,13:15,14:45,Apt Hall 217,CS254 - Introduction to Artificial Intelligence,Section A
+Monday,Lab,09:45,11:15,Apt Hall 217,CS254 - Introduction to Artificial Intelligence,Section B
+Tuesday,Lecture,15:00,16:30,Apt Hall 217,CS254 - Introduction to Artificial Intelligence,Section B
+Thursday,Lecture,15:00,16:30,Apt Hall 217,CS254 - Introduction to Artificial Intelligence,Section B
+Monday,Lecture,08:00,09:30,Nutor Hall 100,CS323 - Database Management / Database Systems,Section A
+Wednesday,Lecture,08:00,09:30,Nutor Hall 100,CS323 - Database Management / Database Systems,Section A
+Friday,Lab,08:40,10:10,Nutor Hall 100,CS323 - Database Management / Database Systems,Section A
+Monday,Lecture,09:45,11:15,Nutor Hall 100,CS323 - Database Management / Database Systems,Section B
+Wednesday,Lecture,09:45,11:15,Nutor Hall 100,CS323 - Database Management / Database Systems,Section B
+Friday,Lab,10:20,11:50,Nutor Hall 100,CS323 - Database Management / Database Systems,Section B
+Monday,Lecture,08:00,09:30,D-Lab 102,CS331 - Computer Organization and Architecture,Section A
+Wednesday,Lecture,08:00,09:30,D-Lab 102,CS331 - Computer Organization and Architecture,Section A
+Friday,Lab,08:40,10:10,D-Lab 102,CS331 - Computer Organization and Architecture,Section A
+Monday,Lecture,09:45,11:15,D-Lab 102,CS331 - Computer Organization and Architecture,Section B
+Wednesday,Lecture,09:45,11:15,D-Lab 102,CS331 - Computer Organization and Architecture,Section B
+Friday,Lab,10:20,11:50,D-Lab 102,CS331 - Computer Organization and Architecture,Section B
+Tuesday,Lecture,08:00,09:30,D-Lab 102,CS341 - Web Technologies,Section A
+Wednesday,Lab,15:00,16:30,Databank Foundation Hall 218,CS341 - Web Technologies,Section A
+Thursday,Lecture,08:00,09:30,D-Lab 102,CS341 - Web Technologies,Section A
+Tuesday,Lecture,11:30,13:00,Apt Hall 217,CS353 - Introduction to AI Robotics,Section A
+Thursday,Lecture,11:30,13:00,Apt Hall 217,CS353 - Introduction to AI Robotics,Section A
+Friday,Lab,10:20,11:50,Jackson Lab 222,CS353 - Introduction to AI Robotics,Section A
+Tuesday,Lecture,13:15,14:45,Jackson Lab 222,CS361 - Introduction to Modelling & Simulation,Section A
+Thursday,Lab,13:15,14:45,Jackson Lab 222,CS361 - Introduction to Modelling & Simulation,Section A
+Tuesday,Lecture,15:00,16:30,Jackson Lab 222,CS361 - Introduction to Modelling & Simulation,Section B
+Thursday,Lab,15:00,16:30,Jackson Lab 222,CS361 - Introduction to Modelling & Simulation,Section B
+Monday,Seminar,11:30,13:00,Nutor Hall 100,CS410-SEM - CSIS Capstone Seminar,Section A
+Monday,Lab,13:15,14:45,Jackson Lab 222,CS415 - Software Engineering,Section A
+Wednesday,Lecture,13:15,14:45,Jackson Lab 222,CS415 - Software Engineering,Section A
+Friday,Period,12:15,13:45,Jackson Lab 222,CS415 - Software Engineering,Section A
+Monday,Lab,15:00,16:30,Jackson Lab 222,CS415 - Software Engineering,Section B
+Wednesday,Lecture,15:00,16:30,Jackson Lab 222,CS415 - Software Engineering,Section B
+Friday,Discussion,13:55,15:25,Jackson Lab 222,CS415 - Software Engineering,Section B
+Tuesday,Lecture,09:45,11:15,D-Lab 102,CS424 - Advanced Database Systems,Section A
+Thursday,Lecture,09:45,11:15,D-Lab 102,CS424 - Advanced Database Systems,Section A
+Friday,Lab,13:55,15:25,Apt Hall 216,CS424 - Advanced Database Systems,Section A
+Monday,Lecture,13:15,14:45,Nutor Hall 216,CS432 - Networks and Data Communication,Section A
+Wednesday,Lecture,13:15,14:45,Nutor Hall 216,CS432 - Networks and Data Communication,Section A
+Friday,Lab,10:20,11:50,Apt Hall 216,CS432 - Networks and Data Communication,Section A
+Monday,Lecture,15:00,16:30,Nutor Hall 216,CS432 - Networks and Data Communication,Section B
+Wednesday,Lecture,15:00,16:30,Nutor Hall 216,CS432 - Networks and Data Communication,Section B
+Friday,Lab,12:15,13:45,Apt Hall 216,CS432 - Networks and Data Communication,Section B
+Tuesday,Lecture,13:15,14:45,Jackson Lab 221,CS443 - Mobile Web Programming / Mobile Application Development,Section A
+Wednesday,Lab,08:00,09:30,Jackson Lab 221,CS443 - Mobile Web Programming / Mobile Application Development,Section A
+Thursday,Lecture,13:15,14:45,Jackson Lab 221,CS443 - Mobile Web Programming / Mobile Application Development,Section A
+Tuesday,Lecture,15:00,16:30,D-Lab 102,CS452 - Computer Graphics,Section A
+Thursday,Lecture,15:00,16:30,D-Lab 102,CS452 - Computer Graphics,Section A
+Friday,Lab,13:55,14:45,D-Lab 102,CS452 - Computer Graphics,Section A
+Tuesday,Lecture,11:30,13:00,D-Lab 102,CS461 - Data Science,Section A
+Thursday,Lecture,11:30,13:00,D-Lab 102,CS461 - Data Science,Section A
+Friday,Lab,10:20,11:50,Apt Hall 217,CS461 - Data Science,Section A
+Monday,Lecture,08:00,09:30,Databank Foundation Hall 218,ECON202 - Principles of Macroeconomics,Section A
+Wednesday,Lecture,08:00,09:30,Databank Foundation Hall 218,ECON202 - Principles of Macroeconomics,Section A
+Friday,Discussion,08:00,09:00,Databank Foundation Hall 218,ECON202 - Principles of Macroeconomics,Section A
+Monday,Lecture,09:45,11:15,Databank Foundation Hall 218,ECON202 - Principles of Macroeconomics,Section B
+Wednesday,Lecture,09:45,11:15,Databank Foundation Hall 218,ECON202 - Principles of Macroeconomics,Section B
+Friday,Discussion,09:10,10:10,Databank Foundation Hall 218,ECON202 - Principles of Macroeconomics,Section B
+Monday,Lecture,11:30,13:00,Apt Hall 217,ECON202 - Principles of Macroeconomics,Section C
+Wednesday,Lecture,11:30,13:00,Apt Hall 217,ECON202 - Principles of Macroeconomics,Section C
+Friday,Discussion,09:10,10:10,Radichel MPR,ECON202 - Principles of Macroeconomics,Section C
+Monday,Lecture,11:30,13:00,Databank Foundation Hall 218,ECON211 - The Economy of Ghana,Section A
+Wednesday,Lecture,11:30,13:00,Databank Foundation Hall 218,ECON211 - The Economy of Ghana,Section A
+Friday,Discussion,10:20,11:20,Databank Foundation Hall 218,ECON211 - The Economy of Ghana,Section A
+Tuesday,Lecture,11:30,13:00,Science Lab,ECON241 - Introduction to  Environmental Economics,Section A
+Thursday,Lecture,11:30,13:00,Science Lab,ECON241 - Introduction to  Environmental Economics,Section A
+Friday,Discussion,12:15,13:15,Norton-Motulsky 207A,ECON241 - Introduction to  Environmental Economics,Section A
+Monday,Lab,14:40,16:40,Science Lab,EE 422 - Advanced Communication Systems,Section A
+Wednesday,Lecture,15:00,16:30,EE lab,EE 422 - Advanced Communication Systems,Section A
+Friday,Lecture,12:15,13:45,Bio Lab,EE 422 - Advanced Communication Systems,Section A
+Monday,Lecture,08:00,09:30,EE lab,EE222 - Circuits and Electronics,Section A
+Wednesday,Lecture,08:00,09:30,EE lab,EE222 - Circuits and Electronics,Section A
+Friday,Lab,09:50,11:50,EE lab,EE222 - Circuits and Electronics,Section A
+Monday,Lecture,09:45,11:15,EE lab,EE222 - Circuits and Electronics,Section B
+Wednesday,Lecture,09:45,11:15,EE lab,EE222 - Circuits and Electronics,Section B
+Friday,Lab,12:15,14:15,EE lab,EE222 - Circuits and Electronics,Section B
+Monday,Lab,10:10,12:10,Bio Lab,EE321 - Communication Systems,Section A
+Wednesday,Lecture,13:15,14:45,EE lab,EE321 - Communication Systems,Section A
+Friday,Lecture,13:55,15:25,Bio Lab,EE321 - Communication Systems,Section A
+Tuesday,Lab,13:15,15:15,EE lab,EE342 - Electrical Machines and Power Electronics II,Section A
+Thursday,Lecture,13:15,14:45,EE lab,EE342 - Electrical Machines and Power Electronics II,Section A
+Friday,Lecture,09:50,11:20,Fab Lab 203,EE342 - Electrical Machines and Power Electronics II,Section A
+Monday,Lab,15:00,17:00,EE lab,EE442 - Power Electronics,Section A
+Wednesday,Lecture,15:00,16:30,Science Lab,EE442 - Power Electronics,Section A
+Friday,Lecture,12:15,13:45,Fab Lab 303,EE442 - Power Electronics,Section A
+Monday,Lab,12:30,14:30,EE lab,EE453 - Power Systems Analysis,Section A
+Wednesday,Lecture,13:15,14:45,Science Lab,EE453 - Power Systems Analysis,Section A
+Friday,Lecture,10:20,11:50,Fab Lab 303,EE453 - Power Systems Analysis,Section A
+Monday,Discussion,13:45,14:45,Jackson Hall 116,ENG232 - African Folktales: How Stories Shape Us,Section A
+Tuesday,Lecture,08:00,09:30,Radichel MPR,ENG232 - African Folktales: How Stories Shape Us,Section A
+Thursday,Lecture,08:00,09:30,Radichel MPR,ENG232 - African Folktales: How Stories Shape Us,Section A
+Tuesday,Lecture,09:45,11:15,Norton-Motulsky 207A,ENGL113 - Text and Meaning,Section A
+Wednesday,Discussion,13:50,14:50,Norton-Motulsky 207A,ENGL113 - Text and Meaning,Section A
+Thursday,Lecture,09:45,11:15,Norton-Motulsky 207A,ENGL113 - Text and Meaning,Section A
+Tuesday,Lecture,11:30,13:00,Norton-Motulsky 207A,ENGL113 - Text and Meaning,Section B
+Wednesday,Discussion,15:00,16:00,Norton-Motulsky 207A,ENGL113 - Text and Meaning,Section B
+Thursday,Lecture,11:30,13:00,Norton-Motulsky 207A,ENGL113 - Text and Meaning,Section B
+Tuesday,Lecture,13:15,14:45,Jackson Hall 116,ENGL113 - Text and Meaning,Section C
+Wednesday,Discussion,16:10,17:10,Radichel MPR,ENGL113 - Text and Meaning,Section C
+Thursday,Lecture,13:15,14:45,Jackson Hall 116,ENGL113 - Text and Meaning,Section C
+Tuesday,Lecture,11:30,13:00,Radichel MPR,ENGL113 - Text and Meaning,Section D
+Wednesday,Discussion,15:00,16:00,Radichel MPR,ENGL113 - Text and Meaning,Section D
+Thursday,Lecture,11:30,13:00,Radichel MPR,ENGL113 - Text and Meaning,Section D
+Tuesday,Lecture,13:15,14:45,Radichel MPR,ENGL113 - Text and Meaning,Section E
+Wednesday,Discussion,13:50,14:50,D-Lab 102,ENGL113 - Text and Meaning,Section E
+Thursday,Lecture,13:15,14:45,Radichel MPR,ENGL113 - Text and Meaning,Section E
+Tuesday,Lecture,15:00,16:30,Radichel MPR,ENGL113 - Text and Meaning,Section F
+Wednesday,Discussion,12:00,13:00,Radichel MPR,ENGL113 - Text and Meaning,Section F
+Thursday,Lecture,15:00,16:30,Radichel MPR,ENGL113 - Text and Meaning,Section F
+Tuesday,Lecture,13:15,14:45,Science Lab,ENGL113 - Text and Meaning,Section G
+Wednesday,Discussion,13:50,14:50,Nutor Hall 115,ENGL113 - Text and Meaning,Section G
+Thursday,Lecture,13:15,14:45,Science Lab,ENGL113 - Text and Meaning,Section G
+Tuesday,Lecture,15:00,16:30,Science Lab,ENGL113 - Text and Meaning,Section H
+Wednesday,Discussion,15:00,16:00,Nutor Hall 115,ENGL113 - Text and Meaning,Section H
+Thursday,Lecture,15:00,16:30,Science Lab,ENGL113 - Text and Meaning,Section H
+Tuesday,Lecture,15:00,16:30,Nutor Hall 216,ENGL113 - Text and Meaning,Section I
+Wednesday,Discussion,12:00,13:00,EE lab,ENGL113 - Text and Meaning,Section I
+Thursday,Lecture,15:00,16:30,Nutor Hall 216,ENGL113 - Text and Meaning,Section I
+Monday,Lab,08:00,10:00,Fab Lab 303,ENGR312 - Control Systems,Section A
+Tuesday,Lecture,09:45,11:15,Fab Lab 303,ENGR312 - Control Systems,Section A
+Thursday,Lecture,09:45,11:15,Fab Lab 303,ENGR312 - Control Systems,Section A
+Tuesday,Seminar,13:15,14:45,Databank Foundation Hall 218,ENGR401 - Senior Project  & Seminar,Section A
+Thursday,Seminar,13:15,14:45,Databank Foundation Hall 218,ENGR401 - Senior Project  & Seminar,Section A
+Monday,Lecture,08:00,09:30,Nutor Hall 216,ENGR413 - Project Management and Professional Practice,Section A
+Wednesday,Lecture,08:00,09:30,Nutor Hall 216,ENGR413 - Project Management and Professional Practice,Section A
+Thursday,Lab,08:00,09:30,Nutor Hall 216,ENGR413 - Project Management and Professional Practice,Section A
+Monday,Lecture,09:45,11:15,Nutor Hall 216,ENGR413 - Project Management and Professional Practice,Section B
+Wednesday,Lecture,09:45,11:15,Nutor Hall 216,ENGR413 - Project Management and Professional Practice,Section B
+Thursday,Lab,09:45,11:15,Nutor Hall 216,ENGR413 - Project Management and Professional Practice,Section B
+Monday,Lecture,11:30,13:00,Jackson Lab 221,IS333 - IT Infrastructure and System Administration Lab,Section A
+Wednesday,Lecture,11:30,13:00,Jackson Lab 221,IS333 - IT Infrastructure and System Administration Lab,Section A
+Friday,Lab,12:15,13:45,D-Lab 102,IS333 - IT Infrastructure and System Administration Lab,Section A
+Monday,Lecture,13:15,14:45,Jackson Lab 221,IS362 - IS Project Management,Section A
+Wednesday,Lecture,13:15,14:45,Jackson Lab 221,IS362 - IS Project Management,Section A
+Thursday,Lab,15:00,16:30,Jackson Lab 221,IS362 - IS Project Management,Section A
+Tuesday,Lecture,08:00,09:30,Nutor Hall 115,MATH 212 - Linear Algebra,Section A
+Thursday,Lecture,08:00,09:30,Nutor Hall 115,MATH 212 - Linear Algebra,Section A
+Friday,Discussion,12:15,13:45,Apt Hall 217,MATH 212 - Linear Algebra,Section A
+Tuesday,Lecture,09:45,11:15,Nutor Hall 115,MATH 212 - Linear Algebra,Section B
+Thursday,Lecture,09:45,11:15,Nutor Hall 115,MATH 212 - Linear Algebra,Section B
+Friday,Lab,13:55,15:25,Apt Hall 217,MATH 212 - Linear Algebra,Section B
+Monday,Lecture,08:00,09:30,Jackson Lab 222,MATH121 - Pre-Calculus I,Section A
+Tuesday,Lecture,08:00,09:30,Jackson Lab 222,MATH121 - Pre-Calculus I,Section A
+Thursday,Lecture,08:00,09:30,Nutor Hall 100,MATH121 - Pre-Calculus I,Section A
+Friday,Discussion,10:20,11:50,Norton-Motulsky 207A,MATH121 - Pre-Calculus I,Section A
+Monday,Lecture,15:00,16:30,Databank Foundation Hall 218,MATH121 - Pre-Calculus I,Section B
+Tuesday,Discussion,11:30,13:00,Fab Lab 203,MATH121 - Pre-Calculus I,Section B
+Thursday,Lecture,11:30,13:00,Fab Lab 203,MATH121 - Pre-Calculus I,Section B
+Friday,Lecture,13:55,15:25,Jackson Hall 115,MATH121 - Pre-Calculus I,Section B
+Monday,Lecture,08:00,09:30,Jackson Hall 115,MATH122 - Pre-Calculus II,Section A
+Tuesday,Lecture,08:00,09:30,Jackson Hall 115,MATH122 - Pre-Calculus II,Section A
+Wednesday,Lecture,08:00,09:30,Jackson Hall 115,MATH122 - Pre-Calculus II,Section A
+Friday,Discussion,10:20,11:50,Jackson Hall 115,MATH122 - Pre-Calculus II,Section A
+Monday,Lecture,09:45,11:15,Jackson Hall 115,MATH122 - Pre-Calculus II,Section B
+Tuesday,Lecture,09:45,11:15,Jackson Hall 115,MATH122 - Pre-Calculus II,Section B
+Wednesday,Lecture,09:45,11:15,Jackson Hall 115,MATH122 - Pre-Calculus II,Section B
+Friday,Discussion,12:15,13:45,Jackson Hall 115,MATH122 - Pre-Calculus II,Section B
+Monday,Lecture,08:00,09:30,Jackson Hall 116,MATH142 - Calculus II,Section A
+Tuesday,Lecture,08:00,09:30,Jackson Hall 116,MATH142 - Calculus II,Section A
+Wednesday,Lecture,08:00,09:30,Jackson Hall 116,MATH142 - Calculus II,Section A
+Friday,Discussion,10:20,11:50,Jackson Hall 116,MATH142 - Calculus II,Section A
+Monday,Lecture,09:45,11:15,Jackson Hall 116,MATH142 - Calculus II,Section B
+Tuesday,Lecture,09:45,11:15,Jackson Hall 116,MATH142 - Calculus II,Section B
+Wednesday,Lecture,09:45,11:15,Jackson Hall 116,MATH142 - Calculus II,Section B
+Friday,Discussion,12:15,13:45,Jackson Hall 116,MATH142 - Calculus II,Section B
+Monday,Lecture,11:30,13:00,Jackson Hall 116,MATH142 - Calculus II,Section C
+Tuesday,Lecture,11:30,13:00,Jackson Hall 116,MATH142 - Calculus II,Section C
+Wednesday,Lecture,11:30,13:00,Jackson Hall 116,MATH142 - Calculus II,Section C
+Friday,Discussion,13:55,15:25,Jackson Hall 116,MATH142 - Calculus II,Section C
+Monday,Lecture,15:00,16:30,Jackson Hall 116,MATH144 - Applied Calculus,Section A
+Tuesday,Lecture,09:45,11:15,Jackson Lab 221,MATH144 - Applied Calculus,Section A
+Wednesday,Discussion,15:00,16:30,Bio Lab,MATH144 - Applied Calculus,Section A
+Thursday,Lecture,09:45,11:15,Jackson Hall 115,MATH144 - Applied Calculus,Section A
+Monday,Lecture,13:15,14:45,Jackson Hall 115,MATH146 - Applied Calculus - Part II,Section A
+Wednesday,Lecture,13:15,14:45,Jackson Hall 115,MATH146 - Applied Calculus - Part II,Section A
+Thursday,Discussion,08:00,09:30,Jackson Hall 115,MATH146 - Applied Calculus - Part II,Section A
+Monday,Lecture,15:00,16:30,Jackson Hall 115,MATH146 - Applied Calculus - Part II,Section B
+Wednesday,Lecture,15:00,16:30,Jackson Hall 115,MATH146 - Applied Calculus - Part II,Section B
+Thursday,Discussion,11:30,13:00,Jackson Hall 116,MATH146 - Applied Calculus - Part II,Section B
+Tuesday,Lecture,08:00,09:30,EE lab,MATH211 - Multivariable Calculus and Linear Algebra,Section A
+Wednesday,Lecture,08:00,09:30,Apt Hall 217,MATH211 - Multivariable Calculus and Linear Algebra,Section A
+Thursday,Lecture,08:00,09:30,EE lab,MATH211 - Multivariable Calculus and Linear Algebra,Section A
+Tuesday,Lecture,09:45,11:15,EE lab,MATH211 - Multivariable Calculus and Linear Algebra,Section B
+Wednesday,Lecture,09:45,11:15,Apt Hall 217,MATH211 - Multivariable Calculus and Linear Algebra,Section B
+Thursday,Lecture,09:45,11:15,EE lab,MATH211 - Multivariable Calculus and Linear Algebra,Section B
+Tuesday,Lecture,08:00,09:30,Databank Foundation Hall 218,MATH223 - Quantitative Methods,Section A
+Thursday,Lecture,08:00,09:30,Databank Foundation Hall 218,MATH223 - Quantitative Methods,Section A
+Friday,Discussion,10:20,11:50,Nutor Hall 115,MATH223 - Quantitative Methods,Section A
+Tuesday,Lecture,09:45,11:15,Databank Foundation Hall 218,MATH223 - Quantitative Methods,Section B
+Thursday,Lecture,09:45,11:15,Databank Foundation Hall 218,MATH223 - Quantitative Methods,Section B
+Friday,Discussion,12:15,13:45,Nutor Hall 115,MATH223 - Quantitative Methods,Section B
+Tuesday,Lecture,11:30,13:00,Databank Foundation Hall 218,MATH223 - Quantitative Methods,Section C
+Thursday,Lecture,11:30,13:00,Databank Foundation Hall 218,MATH223 - Quantitative Methods,Section C
+Friday,Discussion,13:55,15:25,Nutor Hall 115,MATH223 - Quantitative Methods,Section C
+Monday,Discussion,13:15,14:45,Fab Lab 303,MATH251 - Differential Equations and Numerical Methods,Section A
+Tuesday,Lecture,08:00,09:30,Science Lab,MATH251 - Differential Equations and Numerical Methods,Section A
+Thursday,Lecture,08:00,09:30,Science Lab,MATH251 - Differential Equations and Numerical Methods,Section A
+Monday,Discussion,15:00,16:30,Fab Lab 303,MATH251 - Differential Equations and Numerical Methods,Section B
+Tuesday,Lecture,09:45,11:15,Science Lab,MATH251 - Differential Equations and Numerical Methods,Section B
+Thursday,Lecture,09:45,11:15,Science Lab,MATH251 - Differential Equations and Numerical Methods,Section B
+Monday,Lab,12:30,14:30,Fab Lab 203,ME101 - Engineering Mechanics,Section A
+Tuesday,Lecture,13:15,14:45,Fab Lab 203,ME101 - Engineering Mechanics,Section A
+Thursday,Lecture,13:15,14:45,Fab Lab 203,ME101 - Engineering Mechanics,Section A
+Monday,Lab,14:40,16:40,Fab Lab 203,ME101 - Engineering Mechanics,Section B
+Tuesday,Lecture,15:00,16:30,Fab Lab 203,ME101 - Engineering Mechanics,Section B
+Thursday,Lecture,15:00,16:30,Fab Lab 203,ME101 - Engineering Mechanics,Section B
+Monday,Lab,10:10,12:10,Fab Lab 303,ME301 - Mechanical Machine Design,Section A
+Tuesday,Lecture,08:00,09:30,Fab Lab 303,ME301 - Mechanical Machine Design,Section A
+Thursday,Lecture,08:00,09:30,Fab Lab 303,ME301 - Mechanical Machine Design,Section A
+Monday,Lab,15:00,17:00,D-Lab 102,ME412 - Advanced Thermodynamics,Section A
+Wednesday,Lecture,08:00,09:30,Bio Lab,ME412 - Advanced Thermodynamics,Section A
+Friday,Lecture,13:55,15:25,Norton-Motulsky 207B,ME412 - Advanced Thermodynamics,Section A
+Tuesday,Lecture,15:00,16:30,Bio Lab,ME431 - Fluid Mechanics,Section A
+Wednesday,Lab,15:00,17:00,D-Lab 102,ME431 - Fluid Mechanics,Section A
+Thursday,Lecture,15:00,16:30,Bio Lab,ME431 - Fluid Mechanics,Section A
+Monday,Lab,12:30,14:30,Science Lab,ME432 - Computational Fluid Dynamics,Section A
+Wednesday,Lecture,11:30,13:00,Science Lab,ME432 - Computational Fluid Dynamics,Section A
+Friday,Lecture,10:20,11:50,Norton-Motulsky 207B,ME432 - Computational Fluid Dynamics,Section A
+Wednesday,Lecture,11:30,13:30,Fab Lab 203,ME441 - Manufacturing Processes,Section A
+Friday,Lab,08:50,11:50,Bio Lab,ME441 - Manufacturing Processes,Section A
+Monday,Lab,15:00,17:00,Radichel MPR,ME445 - Machine Shop and Factory Design,Section A
+Wednesday,Lecture,09:45,11:15,Bio Lab,ME445 - Machine Shop and Factory Design,Section A
+Friday,Lecture,12:15,13:45,Norton-Motulsky 207B,ME445 - Machine Shop and Factory Design,Section A
+Monday,Lecture,16:45,19:15,Jackson Hall 115,POLS 334 - Introduction to Public Policy,Section A
+Tuesday,Lecture,16:45,19:15,Jackson Hall 115,POLS 334 - Introduction to Public Policy,Section A
+Wednesday,Lecture,16:45,19:15,Jackson Hall 115,POLS 334 - Introduction to Public Policy,Section A
+Thursday,Lecture,16:45,19:15,Jackson Hall 115,POLS 334 - Introduction to Public Policy,Section A
+Friday,Discussion,16:45,19:15,Jackson Hall 115,POLS 334 - Introduction to Public Policy,Section A
+Monday,Lecture,15:00,16:30,Nutor Hall 100,POLS332 - Governance in Africa,Section A
+Wednesday,Lecture,15:00,16:30,Nutor Hall 100,POLS332 - Governance in Africa,Section A
+Friday,Discussion,08:00,09:00,Fab Lab 303,POLS332 - Governance in Africa,Section A
+Monday,Lecture,08:00,09:30,Science Lab,SC221 - Materials Science & Chemistry,Section A
+Wednesday,Lecture,08:00,09:30,Science Lab,SC221 - Materials Science & Chemistry,Section A
+Friday,Lab,09:50,11:50,Science Lab,SC221 - Materials Science & Chemistry,Section A
+Monday,Lecture,09:45,11:15,Science Lab,SC221 - Materials Science & Chemistry,Section B
+Wednesday,Lecture,09:45,11:15,Science Lab,SC221 - Materials Science & Chemistry,Section B
+Friday,Lab,12:15,14:15,Science Lab,SC221 - Materials Science & Chemistry,Section B
+Wednesday,Discussion,12:00,13:00,Nutor Hall 115,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section A
+Thursday,Lecture,08:00,09:30,Norton-Motulsky 207A,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section A
+Monday,Lecture,11:30,13:00,Norton-Motulsky 207A,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section B
+Wednesday,Discussion,16:40,17:40,Norton-Motulsky 207A,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section B
+Wednesday,Discussion,15:00,16:00,Fab Lab 303,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section C
+Thursday,Lecture,08:00,09:30,Jackson Lab 222,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section C
+Wednesday,Discussion,15:00,16:00,Jackson Lab 221,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section D
+Thursday,Lecture,09:45,11:15,Jackson Lab 222,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section D
+Wednesday,Discussion,13:50,14:50,Nutor Hall 100,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section E
+Thursday,Lecture,08:00,09:30,Jackson Lab 221,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section E
+Wednesday,Discussion,13:50,14:50,Fab Lab 303,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section F
+Thursday,Lecture,09:45,11:15,Jackson Lab 221,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section F
+Monday,Seminar,13:15,14:45,Norton-Motulsky 207A,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section G
+Wednesday,Seminar,08:30,09:30,Jackson Lab 222,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section G
+Monday,Seminar,15:00,16:30,Norton-Motulsky 207A,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section H
+Wednesday,Seminar,09:45,10:45,Jackson Lab 222,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section H
+Monday,Seminar,13:15,14:45,D-Lab 102,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section I
+Wednesday,Seminar,16:10,17:10,Nutor Hall 115,SOAN111 - Leadership Seminar I: What Makes a Good Leader?,Section I
+Tuesday,Lecture,15:00,16:30,Jackson Lab 221,SOAN225 - Ghanaian Popular Culture,Section A
+Thursday,Lecture,15:00,16:30,EE lab,SOAN225 - Ghanaian Popular Culture,Section A
+Friday,Discussion,09:10,10:10,Jackson Hall 116,SOAN225 - Ghanaian Popular Culture,Section A
+Tuesday,Lecture,11:30,13:00,EE lab,SOAN236 - ESG: Corporate Ethics in Africa,Section A
+Thursday,Lecture,11:30,13:00,EE lab,SOAN236 - ESG: Corporate Ethics in Africa,Section A
+Friday,Discussion,08:00,09:00,Apt Hall 216,SOAN236 - ESG: Corporate Ethics in Africa,Section A
+Tuesday,Lecture,09:45,11:15,Fab Lab 203,SOAN239 - African & Diasporan Choir,Section A
+Thursday,Lecture,09:45,11:15,Fab Lab 203,SOAN239 - African & Diasporan Choir,Section A
+Friday,Discussion,09:10,10:10,Fab Lab 303,SOAN239 - African & Diasporan Choir,Section A
+Tuesday,Lecture,15:00,16:30,Databank Foundation Hall 218,SOAN301 - Introduction to Africana Studies: The Global Black Experience,Section A
+Thursday,Lecture,15:00,16:30,Databank Foundation Hall 218,SOAN301 - Introduction to Africana Studies: The Global Black Experience,Section A
+Friday,Discussion,09:10,10:10,Apt Hall 216,SOAN301 - Introduction to Africana Studies: The Global Black Experience,Section A
+Tuesday,Seminar,08:00,09:30,Jackson Lab 221,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section A
+Wednesday,Seminar,13:50,14:50,Jackson Hall 116,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section A
+Tuesday,Seminar,09:45,11:15,Nutor Hall 216,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section B
+Wednesday,Seminar,15:00,16:00,Jackson Hall 116,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section B
+Tuesday,Seminar,08:00,09:30,Nutor Hall 216,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section C
+Wednesday,Seminar,16:40,17:40,Jackson Hall 116,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section C
+Tuesday,Seminar,09:45,11:15,Jackson Lab 222,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section D
+Wednesday,Seminar,16:40,17:40,Fab Lab 303,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section D
+Tuesday,Seminar,11:30,13:00,Jackson Lab 222,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section E
+Wednesday,Seminar,16:40,17:40,Nutor Hall 100,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section E
+Tuesday,Seminar,11:30,13:00,Jackson Lab 221,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section F
+Wednesday,Discussion,13:50,14:50,Radichel MPR,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section F
+Monday,Seminar,13:15,14:45,Nutor Hall 115,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section G
+Thursday,Seminar,08:30,09:30,Norton-Motulsky 207B,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section G
+Monday,Seminar,15:00,16:30,Nutor Hall 115,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section H
+Thursday,Discussion,12:00,13:00,Jackson Lab 221,SOAN311 - Leadership Seminar III: The Economic Organization of a Good Society,Section H
+Monday,Discussion,09:45,10:45,Jackson Lab 222,SOAN325 - Research Methods,Section A
+Tuesday,Lecture,09:45,11:15,Nutor Hall 100,SOAN325 - Research Methods,Section A
+Thursday,Lecture,09:45,11:15,Nutor Hall 100,SOAN325 - Research Methods,Section A
+Monday,Discussion,11:30,12:30,Jackson Lab 222,SOAN325 - Research Methods,Section B
+Tuesday,Lecture,11:30,13:00,Nutor Hall 100,SOAN325 - Research Methods,Section B
+Thursday,Lecture,11:30,13:00,Nutor Hall 100,SOAN325 - Research Methods,Section B
+Monday,Lecture,08:00,09:30,Nutor Hall 115,SOAN325 - Research Methods,Section C
+Wednesday,Lecture,08:00,09:30,Nutor Hall 115,SOAN325 - Research Methods,Section C
+Thursday,Discussion,08:30,09:30,Jackson Hall 116,SOAN325 - Research Methods,Section C
+Monday,Lecture,09:45,11:15,Nutor Hall 115,SOAN325 - Research Methods,Section D
+Wednesday,Lecture,09:45,11:15,Nutor Hall 115,SOAN325 - Research Methods,Section D
+Thursday,Discussion,09:45,10:45,Jackson Hall 116,SOAN325 - Research Methods,Section D
+Tuesday,Class Meeting,16:45,18:15,Apt Hall 216,SOAN328 - Creative and Research Internship,Section A
+Tuesday,Lecture,13:15,14:45,Bio Lab,SOAN332 - Sustainability and Systems Thinking,Section A
+Thursday,Lecture,13:15,14:45,Bio Lab,SOAN332 - Sustainability and Systems Thinking,Section A
+Friday,Discussion,08:00,09:00,Science Lab,SOAN332 - Sustainability and Systems Thinking,Section A
+Tuesday,Seminar,11:30,13:00,Jackson Hall 115,SOAN411 - Leadership Seminar IV: Leadership as Service,Section A
+Thursday,Seminar,11:30,13:00,Jackson Hall 115,SOAN411 - Leadership Seminar IV: Leadership as Service,Section A
+Monday,Seminar,13:15,14:45,Apt Hall 217,SOAN411 - Leadership Seminar IV: Leadership as Service,Section C
+Wednesday,Seminar,13:15,14:45,Apt Hall 217,SOAN411 - Leadership Seminar IV: Leadership as Service,Section C
