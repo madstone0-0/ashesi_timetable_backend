@@ -4,7 +4,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-v16+-blue?logo=postgresql)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker)](https://docs.docker.com/compose/)
 
-Backend server for the Study Spot Finder project, providing RESTful APIs for managing study locations, user interactions, and real-time data. Built with Node.js, Express, and PostgreSQL.
+Backend server for the [Study Spot Finder](https://github.com/elikem1z/STUDY-ROOM-FINDER-PROJECT) project, providing RESTful APIs for viewing study locations availability. Built with Node.js, Express, and PostgreSQL.
 
 ## Features
 - Dockerized development environment
