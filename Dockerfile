@@ -1,17 +1,21 @@
 FROM node:21-alpine as builder
 
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
+
 WORKDIR /backend
 COPY package.json .
-COPY yarn.lock .
+COPY pnpm-lock.yaml .
 COPY . .
-RUN yarn install && yarn build && yarn cache clean
+RUN pnpm install && pnpm build
 
 FROM builder as production
 ENV NODE_ENV=prod
 COPY --from=builder /backend/dist ./dist
 COPY --from=builder /backend/package.json .
-COPY --from=builder /backend/yarn.lock .
-RUN yarn install --production && yarn cache clean
+COPY --from=builder /backend/pnpm-lock.yaml .
+RUN pnpm install --production && rm -rf $(pnpm store path)
 
 EXPOSE 3000
 CMD ["node", "./dist/index.js"]
