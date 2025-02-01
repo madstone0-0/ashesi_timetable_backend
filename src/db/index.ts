@@ -21,6 +21,6 @@ logger.info(
         `\nUSER: ${constants.PG_USER}`,
 );
 
-const db = drizzle(pool, { logger: true });
+const db = drizzle(pool, { logger: false });
 
 export default db;

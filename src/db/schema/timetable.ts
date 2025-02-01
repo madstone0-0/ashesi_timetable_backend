@@ -14,10 +14,7 @@ export const timetable = pgTable("timetable", {
 
 export type Timetable = InferSelectModel<typeof timetable>;
 
-const locations = db
-    .selectDistinct({ location: timetable.location })
-    .from(timetable)
-    .orderBy(timetable.location);
+const locations = db.selectDistinct({ location: timetable.location }).from(timetable).orderBy(timetable.location);
 
 const coursesByLocation = db
     .select()
@@ -26,5 +23,4 @@ const coursesByLocation = db
 
 export const getAllLocations = async () => locations.execute();
 
-export const getCoursesByLocation = async (location: string) =>
-    coursesByLocation.execute({ location });
+export const getCoursesByLocation = async (location: string) => coursesByLocation.execute({ location });
