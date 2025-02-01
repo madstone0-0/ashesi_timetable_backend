@@ -1,8 +1,17 @@
-import express from "express";
+import express, { Response } from "express";
 import TimetableService from "../services/TimetableService";
 import { logger } from "../logging";
-import { CourseRequest, CustomRequest } from "../types";
+import { CourseRequest, CustomRequest, Day } from "../types";
 import { handleServerError } from "../utils/handleErrors";
+import { convertToHuman } from "../utils";
+import {
+    handleValidation,
+    locationDayValidator,
+    locationHoursValidator,
+    locationValidator,
+    timeHoursValidator,
+} from "../middleware/validators";
+import { Timetable } from "../db/schema/timetable";
 
 const timeT = express.Router();
 
@@ -18,36 +27,62 @@ timeT.get("/locations", (req, res) => {
         .catch((e) => handleServerError(e, "/timetable/locations"));
 });
 
-timeT.post("/courses-right-now", (req: CourseRequest, res) => {
-    const { location } = req.body;
+timeT.post(
+    "/courses-right-now",
+    locationValidator(),
+    handleValidation,
+    (req: CourseRequest, res: Response<Timetable[]>) => {
+        const { location } = req.body;
 
-    logger.info(`Getting courses right now for ${location}`);
+        logger.info(`Getting courses right now for ${location}`);
 
-    TimetableService.CoursesRightNow(location)
-        .then(({ status, data }) => {
-            return res.status(status).send(data);
-        })
-        .catch((e) => handleServerError(e, "/timetable/courses-right-now"));
-});
+        TimetableService.CoursesRightNow(location)
+            .then(({ status, data }) => {
+                return res.status(status).send(data);
+            })
+            .catch((e) => handleServerError(e, "/timetable/courses-right-now"));
+    },
+);
 
-timeT.post("/courses-today", (req: CourseRequest, res) => {
-    const { location } = req.body;
+timeT.post(
+    "/courses-today",
+    locationValidator(),
+    handleValidation,
+    (req: CourseRequest, res: Response<Timetable[]>) => {
+        const { location } = req.body;
 
-    logger.info(`Getting courses for today for ${location}`);
-    TimetableService.CoursesToday(location)
-        .then(({ status, data }) => {
-            return res.status(status).send(data);
-        })
-        .catch((e) => handleServerError(e, "/timetable/courses-today"));
-});
+        logger.info(`Getting courses for today for ${location}`);
+        TimetableService.CoursesToday(location)
+            .then(({ status, data }) => {
+                return res.status(status).send(data);
+            })
+            .catch((e) => handleServerError(e, "/timetable/courses-today"));
+    },
+);
+
+timeT.post(
+    "/courses-day",
+    locationDayValidator(),
+    handleValidation,
+    (req: CustomRequest<unknown, { location: string; day: Day }>, res: Response<Timetable[]>) => {
+        const { location, day } = req.body;
+        TimetableService.CoursesDate(location, day)
+            .then(({ status, data }) => {
+                return res.status(status).send(data);
+            })
+            .catch((e) => handleServerError(e, "/timetable/courses-day"));
+    },
+);
 
 timeT.post(
     "/courses-within",
-    (req: CustomRequest<unknown, { location: string; hours: number }>, res) => {
+    locationHoursValidator(),
+    handleValidation,
+    (req: CustomRequest<unknown, { location: string; hours: number }>, res: Response<Timetable[]>) => {
         const { location, hours } = req.body;
 
         logger.info(`Getting courses for today for ${location}`);
-        TimetableService.CoursesWithinNHours(location, hours)
+        TimetableService.CoursesWithinNHoursFrom(location, hours)
             .then(({ status, data }) => {
                 return res.status(status).send(data);
             })
@@ -62,5 +97,18 @@ timeT.get("/available-right-now", (req, res) => {
         })
         .catch((e) => handleServerError(e, "/timetable/available-right-now"));
 });
+
+timeT.post(
+    "/available-at",
+    timeHoursValidator(),
+    handleValidation,
+    (req: CustomRequest<unknown, { time: number; hours?: number }>, res: Response<string[]>) => {
+        const { time, hours } = req.body;
+        logger.info(`Checking available at ${convertToHuman(time)}`);
+        TimetableService.AvailableAt(time, hours)
+            .then(({ status, data }) => res.status(status).send(data))
+            .catch((e) => handleServerError(e, "/timetable/available-at"));
+    },
+);
 
 export default timeT;
