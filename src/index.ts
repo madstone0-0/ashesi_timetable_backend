@@ -19,7 +19,7 @@ export const prettyPrint = <T>(log: T) => {
 app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
     console.error(err.stack);
     if (err.name === "SyntaxError") {
-        return res.status(400).send({ message: "Invalid JSON" });
+        return res.status(422).send({ message: "Invalid JSON" });
     }
     return res.status(500).send({ message: "Server error!" });
 });

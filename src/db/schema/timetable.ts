@@ -1,6 +1,7 @@
 import { pgTable, varchar, date } from "drizzle-orm/pg-core";
-import { InferSelectModel, eq, sql } from "drizzle-orm";
+import { InferSelectModel, eq, sql, and } from "drizzle-orm";
 import db from "../../db";
+import { Day } from "../../types";
 
 export const timetable = pgTable("timetable", {
     day: varchar("day").notNull(),
@@ -16,11 +17,32 @@ export type Timetable = InferSelectModel<typeof timetable>;
 
 const locations = db.selectDistinct({ location: timetable.location }).from(timetable).orderBy(timetable.location);
 
+const coursesAndSections = db
+    .selectDistinct({ course: timetable.courseCode, section: timetable.section })
+    .from(timetable)
+    .orderBy(timetable.courseCode);
+
 const coursesByLocation = db
     .select()
     .from(timetable)
     .where(eq(timetable.location, sql.placeholder("location")));
 
-export const getAllLocations = async () => locations.execute();
+const courseInfoByDayAndSection = db
+    .select()
+    .from(timetable)
+    .where(
+        and(
+            eq(timetable.courseCode, sql.placeholder("course")),
+            eq(timetable.day, sql.placeholder("day")),
+            eq(timetable.section, sql.placeholder("section")),
+        ),
+    );
 
-export const getCoursesByLocation = async (location: string) => coursesByLocation.execute({ location });
+export const getAllLocations = () => locations.execute();
+
+export const getCoursesByLocation = (location: string) => coursesByLocation.execute({ location });
+
+export const getAllCoursesAndSections = () => coursesAndSections.execute();
+
+export const getCourseInfoByDayAndSection = (course: string, day: Day, section: string) =>
+    courseInfoByDayAndSection.execute({ course, day, section });

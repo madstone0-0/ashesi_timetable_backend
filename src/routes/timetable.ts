@@ -1,10 +1,11 @@
 import express, { Response } from "express";
 import TimetableService from "../services/TimetableService";
 import { logger } from "../logging";
-import { CourseRequest, CustomRequest, Day } from "../types";
+import { CourseRequest, CourseSection, CustomRequest, Day, Period } from "../types";
 import { handleServerError } from "../utils/handleErrors";
 import { convertToHuman } from "../utils";
 import {
+    courseSectionDayValidator,
     handleValidation,
     locationDayValidator,
     locationHoursValidator,
@@ -110,5 +111,29 @@ timeT.post(
             .catch((e) => handleServerError(e, "/timetable/available-at"));
     },
 );
+
+timeT.post(
+    "/common-free-time",
+    courseSectionDayValidator(),
+    handleValidation,
+    (
+        req: CustomRequest<unknown, { courseSection: CourseSection[]; day: Day; minDuration?: number }>,
+        res: Response<Period[] | { message: string }>,
+    ) => {
+        const { courseSection, day, minDuration } = req.body;
+        TimetableService.FindFreeTime(courseSection, day, minDuration)
+            .then(({ status, data }) => {
+                if (!data) return res.status(404).send({ message: "Could not find common free time" });
+                return res.status(status).send(data);
+            })
+            .catch((e) => handleServerError(e, "/timetable/common-free-time"));
+    },
+);
+
+timeT.get("/courses", (_, res) => {
+    TimetableService.GetAllCourseSections()
+        .then(({ status, data }) => res.status(status).send(data))
+        .catch((e) => handleServerError(e, "/timetable/courses"));
+});
 
 export default timeT;
