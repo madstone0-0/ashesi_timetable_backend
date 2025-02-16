@@ -38,6 +38,11 @@ const courseInfoByDayAndSection = db
         ),
     );
 
+const courseInfoByDay = db
+    .selectDistinct({ course: timetable.courseCode, section: timetable.section })
+    .from(timetable)
+    .where(eq(timetable.day, sql.placeholder("day")));
+
 export const getAllLocations = () => locations.execute();
 
 export const getCoursesByLocation = (location: string) => coursesByLocation.execute({ location });
@@ -46,3 +51,5 @@ export const getAllCoursesAndSections = () => coursesAndSections.execute();
 
 export const getCourseInfoByDayAndSection = (course: string, day: Day, section: string) =>
     courseInfoByDayAndSection.execute({ course, day, section });
+
+export const getAllCoursesToday = (day: Day) => courseInfoByDay.execute({ day });

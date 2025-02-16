@@ -2,6 +2,7 @@ import { Optional } from "express-validator/lib/context";
 import {
     Timetable,
     getAllCoursesAndSections,
+    getAllCoursesToday,
     getAllLocations,
     getCourseInfoByDayAndSection,
     getCoursesByLocation,
@@ -154,9 +155,19 @@ class TimetableService {
         }
     }
 
-    async GetAllCourseSections(): PromiseReturn<{ course: string; sections: string[] }[]> {
+    async GetAllCourseSections(day?: Day): PromiseReturn<{ course: string; sections: string[] }[]> {
         try {
-            const courseSections = await getAllCoursesAndSections();
+            let courseSections: {
+                course: string;
+                section: string;
+            }[] = [];
+
+            if (day) {
+                courseSections = await getAllCoursesToday(day);
+            } else {
+                courseSections = await getAllCoursesAndSections();
+            }
+
             const courseMap = new Map<string, string[]>();
 
             for (const courseSection of courseSections) {

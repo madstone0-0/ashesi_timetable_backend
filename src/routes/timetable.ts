@@ -130,8 +130,9 @@ timeT.post(
     },
 );
 
-timeT.get("/courses", (_, res) => {
-    TimetableService.GetAllCourseSections()
+timeT.get("/courses", (req: CustomRequest<unknown, unknown, { day: Day | undefined }>, res) => {
+    const { day } = req.query;
+    TimetableService.GetAllCourseSections(day)
         .then(({ status, data }) => res.status(status).send(data))
         .catch((e) => handleServerError(e, "/timetable/courses"));
 });

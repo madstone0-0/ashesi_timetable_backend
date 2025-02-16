@@ -8,7 +8,7 @@ export interface ServiceReturn<Data = any> {
     extra?: any;
 }
 
-export type CustomRequest<Params = unknown, ReqBody = unknown> = Request<Params, unknown, ReqBody>;
+export type CustomRequest<Params = unknown, ReqBody = unknown, ReqQuery = unknown> = Request<Params, unknown, ReqBody, ReqQuery>;
 
 export type CourseRequest = CustomRequest<unknown, { location: string }>;
 
