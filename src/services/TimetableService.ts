@@ -11,6 +11,7 @@ import { logger } from "../logging";
 import { CourseSection, Day, Period, PromiseReturn, ServiceReturn } from "../types";
 import { convertToHuman, convertToUnix } from "../utils";
 import { handleServerError } from "../utils/handleErrors";
+import { prettyPrint } from "..";
 
 class TimetableService {
     async GetAllLocations(): Promise<ServiceReturn<string[]>> {
@@ -220,13 +221,37 @@ class TimetableService {
             }
         }
 
-        const periodArray = this.mergePeriods(
-            distinctPeriods
-                .map((period) => {
-                    return { startTime: convertToUnix(period.startTime), endTime: convertToUnix(period.endTime) };
-                })
-                .sort((a, b) => a.startTime - b.startTime),
-        );
+        if (distinctPeriods.length === 0) {
+            return [];
+        }
+
+        let distinctPeriodsUnix = distinctPeriods
+            .map((period) => {
+                return { startTime: convertToUnix(period.startTime), endTime: convertToUnix(period.endTime) };
+            })
+            .sort((a, b) => a.startTime - b.startTime);
+
+        // Add periods representing the start and end of the day to represent the free time before the first class and after the last class
+        const startOfDay = convertToUnix("08:00:00");
+        const endOfDay = convertToUnix("19:00:00");
+        if (distinctPeriodsUnix.at(0)!.startTime !== startOfDay) {
+            distinctPeriodsUnix = [
+                {
+                    // Both the same value always resulting in the upper bound for the first free time being
+                    // the start of the day
+                    startTime: startOfDay,
+                    endTime: startOfDay,
+                },
+                ...distinctPeriodsUnix,
+            ];
+        }
+
+        distinctPeriodsUnix.push({
+            startTime: endOfDay,
+            endTime: endOfDay,
+        });
+
+        const periodArray = this.mergePeriods(distinctPeriodsUnix);
 
         const freePeriods: Period[] = [];
         for (let i = 1; i < periodArray.length; i++) {
