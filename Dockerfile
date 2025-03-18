@@ -1,4 +1,4 @@
-FROM node:21-alpine as builder
+FROM node:21-alpine AS builder
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
@@ -10,7 +10,7 @@ COPY pnpm-lock.yaml .
 COPY . .
 RUN pnpm install && pnpm build
 
-FROM builder as production
+FROM builder AS production
 ENV NODE_ENV=prod
 COPY --from=builder /backend/dist ./dist
 COPY --from=builder /backend/package.json .

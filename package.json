@@ -3,13 +3,13 @@
     "scripts": {
         "build:render": "./node_modules/.bin/tsc",
         "build": "tsc",
-        "prestart": "yarn build",
+        "prestart": "pnpm build",
         "dev": "export NODE_ENV=dev;LOG_LEVEL=debug; nodemon -r dotenv/config src/index.ts",
         "dev:bun": "bun --hot src/index.ts",
         "start": "LOG_LEVEL=debug;NODE_ENV=prod; pm2-runtime ./dist/index.js",
         "test": "NODE_ENV=testing; jest --detectOpenHandles",
         "docs": "node ./src/swagger.ts",
-        "dev:docs": "NODE_ENV=dev; ts-node ./src/swagger.ts; yarn dev"
+        "dev:docs": "NODE_ENV=dev; ts-node ./src/swagger.ts; pnpm dev"
     },
     "dependencies": {
         "@types/compression": "^1.7.5",

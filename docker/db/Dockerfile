@@ -1,5 +1,5 @@
-FROM postgres:16
+FROM postgres
 
 EXPOSE 5432
 
-ADD ./src/db/migrations/*.sql /docker-entrypoint-initdb.d/
+COPY ./src/db/migrations/*.sql /docker-entrypoint-initdb.d/
