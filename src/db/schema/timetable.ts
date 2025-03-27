@@ -1,4 +1,4 @@
-import { pgTable, varchar, date } from "drizzle-orm/pg-core";
+import { pgTable, varchar, time } from "drizzle-orm/pg-core";
 import { InferSelectModel, eq, sql, and } from "drizzle-orm";
 import db from "../../db";
 import { Day } from "../../types";
@@ -6,8 +6,8 @@ import { Day } from "../../types";
 export const timetable = pgTable("timetable", {
     day: varchar("day").notNull(),
     periodName: varchar("period_name").notNull(),
-    startTime: date("start_time").notNull(),
-    endTime: date("end_time").notNull(),
+    startTime: time("start_time").notNull(),
+    endTime: time("end_time").notNull(),
     location: varchar("location").notNull(),
     courseCode: varchar("course_code").notNull(),
     section: varchar("section").notNull(),

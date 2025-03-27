@@ -1,25 +1,20 @@
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
-import * as constants from "../constants";
+import { PG_PORT, PG_USER, PG_PASS, PG_DB, PG_HOST } from "../constants";
 import { logger } from "../logging";
 
 let ssl = false;
 
 let pool = new Pool({
-    host: constants.PG_HOST,
-    port: constants.PG_PORT,
-    user: constants.PG_USER,
-    password: constants.PG_PASS,
-    database: constants.PG_DB,
+    host: PG_HOST,
+    port: PG_PORT,
+    user: PG_USER,
+    password: PG_PASS,
+    database: PG_DB,
     ssl: ssl,
 });
 
-logger.info(
-    "Connecting to database with info:" +
-        `\nHOST: ${constants.PG_HOST}` +
-        `\nPORT: ${constants.PG_PORT}` +
-        `\nUSER: ${constants.PG_USER}`,
-);
+logger.info("Connecting to database with info:" + `\nHOST: ${PG_HOST}` + `\nPORT: ${PG_PORT}` + `\nUSER: ${PG_USER}`);
 
 const db = drizzle(pool, { logger: false });
 

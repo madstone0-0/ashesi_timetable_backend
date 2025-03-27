@@ -257,10 +257,16 @@ class TimetableService {
         for (let i = 1; i < periodArray.length; i++) {
             const prevEnd = periodArray[i - 1].endTime;
             const currStart = periodArray[i].startTime;
+            logger.info(prevEnd);
+            logger.info(currStart);
             if (prevEnd < currStart) {
+                logger.info(`PrevEnd: ${convertToHuman(prevEnd)}`);
+                logger.info(`CurrStarr: ${convertToHuman(currStart)}`);
                 freePeriods.push({
                     startTime: convertToHuman(prevEnd),
                     endTime: convertToHuman(currStart),
+                    // startTime: prevEnd.toString(),
+                    // endTime: currStart.toString(),
                 });
             }
         }
@@ -286,6 +292,8 @@ class TimetableService {
             if (minDuration) {
                 logger.info(`Minimum Duration: ${minDuration}`);
                 freePeriods = freePeriods.filter((p) => {
+                    logger.info(p.startTime);
+                    logger.info(p.endTime);
                     const diff = convertToUnix(p.endTime) - convertToUnix(p.startTime);
                     logger.info(`Difference: ${diff}`);
                     return diff >= minDuration * 60 * 1000; // Convert to milliseconds
